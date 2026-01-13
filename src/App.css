@@ -1,0 +1,25 @@
+.IconButton {
+  transition: all 0.2s !important;
+}
+
+.IconButton:hover {
+  background-color: lightgray !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.24) !important;
+}
+
+.TodoCard {
+  transition: all 0.2s !important;
+}
+
+.TodoCard:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.24) !important;
+}
+@font-face {
+  font-family: Pacifico;
+  src: url("/public/fonts/Pacifico-Regular.ttf");
+}
+#alertBox {
+  background: "pink" !important;
+}
