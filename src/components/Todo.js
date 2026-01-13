@@ -14,7 +14,7 @@ export default function Todo({ todo, showUpdate, showDelete }) {
   function handleCheckButton() {
     dispatch({ type: "TOGGLE_TODO", payload: todo });
     showHideToast(
-      todo.isCompleted
+      !todo.isCompleted
         ? "Task completed successfully!"
         : "Task marked as not completed!"
     );
@@ -31,7 +31,7 @@ export default function Todo({ todo, showUpdate, showDelete }) {
     <>
       <Card
         sx={{
-          minWidth: 275,
+          minWidth: 200,
           background: "#ffe9ef",
           marginTop: "5px",
         }}
